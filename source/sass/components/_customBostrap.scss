@@ -1,0 +1,6 @@
+.navbar-brand {
+    font-size: 30px;
+}
+.btn-brand-light {
+    @include button-variant($white, $primary-200);
+}

@@ -1,0 +1,14 @@
+.card-label {
+    cursor: pointer;
+    .bi-heart-fill, .card-checkbox {
+        display: none;
+    }
+    .card-checkbox:checked {
+         &~ .bi-heart-fill {
+            display: block;
+        }
+         &~ .bi-heart {
+            display: none;
+        }
+    }
+}

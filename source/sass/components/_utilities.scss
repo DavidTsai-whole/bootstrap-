@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-primary-lighter {
+    background-color:$primary-200;
+}
+.border-primary-lighter {
+    border-color: $primary-200;
+  }
+.text-primary-light {
+    color:$primary-500;
+}
+
+.btn-primary-lighter {
+    background-color: $primary-200 ;
+    color:$primary;
+    font-weight: $font-weight-600;
+    border-radius: 0;
+}
+.writing-vertical {
+    writing-mode: vertical-rl;
+  }
+.writing-md-vertical {
+    @include media-breakpoint-up(md) {
+        writing-mode: vertical-rl;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 0 30px;
+    }
+}
+.font-family {
+    font-family: 'Londrina Solid', cursive;
+}

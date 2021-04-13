@@ -1,0 +1,21 @@
+.form-square {
+    background-color: $primary-200;
+    position: relative;
+    color:$primary;
+    .form-input {
+        padding:16px 65px;
+        border:none;
+        outline: none;
+        background-color: transparent;
+    }
+    .input-iocn {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    .input-iocn-lg {
+        position: absolute;
+        top: 22px;
+        left: 20px;
+    }
+}
